@@ -1,4 +1,4 @@
-docker-kuberctl
+docker-kubectl
 ---
 
 kubectl version: v1.2.4
@@ -14,7 +14,7 @@ kubectl version: v1.2.4
 
 ## Contribution
 
-1. Fork ([https://github.com/koudaiii/docker-kuberctl/fork](https://github.com/koudaiii/docker-kuberctl/fork))
+1. Fork ([https://github.com/koudaiii/docker-kubectl/fork](https://github.com/koudaiii/docker-kubectl/fork))
 1. Create a feature branch
 1. Commit your changes
 1. Rebase your local changes against the master branch
