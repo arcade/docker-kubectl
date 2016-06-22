@@ -1,7 +1,10 @@
 docker-kubectl
 ---
 
-kubectl version: v1.2.4
+kubectl version tag:
+
+* 1.2.4(latest)
+* 1.2.3
 
 ## Install
 
