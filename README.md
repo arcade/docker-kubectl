@@ -23,8 +23,13 @@ kubectl version tag:
 
 ## Usage
 
-* `docker run -it -v ~/.kube/config:/root/.kube/config koudaiii/kubectl`
-* `docker run -it -v ~/.kube/config:/root/.kube/config koudaiii/kubectl version`
+* `docker run -it -e EDITOR=vim -v ~/.kube/config:/root/.kube/config koudaiii/kubectl`
+* `docker run -it -e EDITOR=vim -v ~/.kube/config:/root/.kube/config koudaiii/kubectl version`
+
+## Support EDITOR
+
+- vim(default) or vi
+- emacs
 
 ## Contribution
 
