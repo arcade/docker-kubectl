@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-ENV KUBECTL_VERSION v1.4.1
+ENV KUBECTL_VERSION v1.4.2
 ENV EDITOR vim
 
 RUN apk add --no-cache --update ca-certificates wget vim \
