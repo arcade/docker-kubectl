@@ -3,7 +3,8 @@ docker-kubectl
 
 kubectl version tag:
 
-* 1.4.4(latest)
+* 1.4.5(latest)
+* 1.4.4
 * 1.4.3
 * 1.4.2
 * 1.4.1
