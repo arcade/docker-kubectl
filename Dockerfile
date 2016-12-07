@@ -10,7 +10,7 @@ RUN apk add --no-cache --update ca-certificates wget curl bash vim \
   && rm /var/cache/apk/*
 
 RUN apk add --no-cache \
-            --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ \
+            --repository http://dl-3.alpinelinux.org/alpine/edge/community/ \
             emacs
 
 ENTRYPOINT ["/usr/local/bin/kubectl"]
